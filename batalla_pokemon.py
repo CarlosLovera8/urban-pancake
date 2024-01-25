@@ -4,10 +4,11 @@ ps_jugador = 100
 ps_oponente = 100
 defensa_oponente = 100
 defensa_jugador = 100
-
+lista_ataque = ['malicioso', 'placaje', 'ascuas']
 
 while ps_jugador > 0 and ps_oponente > 0:
     
+    print(lista_ataque)
     ataque_jugador = input('ataque:')
     ataque_jugador == ataque_jugador.lower()
     

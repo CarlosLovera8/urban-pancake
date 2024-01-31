@@ -43,7 +43,7 @@ while items_jugador[0] > 0 and items_oponentes[0] > 0:
     
     if ataque_oponente == 1: #latigo
         items_jugador == items_jugador[0], items_jugador[1] - 10
-        print("Tu enemigo ha usado latigo, tu defensa es ahora:" + str(items_jugador[1]))
+        print("Tu enemigo ha usado latigo, tu vida y tu defensa son ahora:" + str(items_jugador))
         
         if items_jugador[1] <= 0:
             items_jugador[1] = 1

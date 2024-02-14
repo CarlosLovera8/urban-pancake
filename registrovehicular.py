@@ -1,30 +1,30 @@
 class Carro:
-    def __init__(self, marca, modelo, anio):
+    def __init__(self, marca, modelo, año):
         self.marca = marca
         self.modelo = modelo
-        self.anio = anio
+        self.año = año
 
     def __str__(self):
-        return f"Carro: {self.marca} {self.modelo} ({self.anio})"
+        return f"Carro: {self.marca} {self.modelo} ({self.año})"
 
 class Barco:
-    def __init__(self, manufacturer, name, length):
-        self.manufacturer = manufacturer
-        self.name = name
-        self.length = length
+    def __init__(self, marca, nombre, longitud):
+        self.marca = marca
+        self.nombre = nombre
+        self.longitud = longitud
 
     def __str__(self):
-        return f"Barco: {self.manufacturer} {self.name} ({self.length} ft)"
+        return f"Barco: {self.marca} {self.nombre} ({self.longitud} ft)"
 
 class Avion:
-    def __init__(self, manufacturer, model, year, capacity):
-        self.manufacturer = manufacturer
-        self.model = model
-        self.year = year
-        self.capacity = capacity
+    def __init__(self, marca, modelo, año, capacidad):
+        self.marca = marca
+        self.modelo = modelo
+        self.año = año
+        self.capacidad = capacidad
 
     def __str__(self):
-        return f"Avion: {self.manufacturer} {self.model} ({self.year}), capacidad: {self.capacity}"
+        return f"Avion: {self.marca} {self.modelo} ({self.año}), capacidad: {self.capacity}"
 
 # Crear objetos de diferentes tipos de vehículos
 car1 = Carro("Toyota", "Camry", 2020)
